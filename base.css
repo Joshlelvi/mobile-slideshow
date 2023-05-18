@@ -1,0 +1,24 @@
+/*
+Fix mobile slideshow [start]
+===================================== */
+
+@media (max-width: 749px){
+    [id] .slideshow{
+        position: relative;
+    }
+
+  [id] [class*='banner__content'] {
+      position: absolute;
+      top: 0;
+      height: 100%;
+  }
+    
+  [id] [class*='banner__content']  > *{
+    background: rgba(255,255,255,0.2)
+  }
+   
+}
+
+/* 
+Fix mobile slideshow [end]
+===================================== */
